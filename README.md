@@ -3,13 +3,13 @@
 This assignment tests the following:
 * NPM/Webpack frontend production
 * HTML development
-* ES6 Javascript
+* ES6 JavaScript
 * SCSS/CSS development
 
 
-The goal of this Assignment is to understand a candidate's approach when assigned a task. Questions are encouraged.
+The goal of this Assignment is to understand a candidate's approach when assigned a task. 
 
-You should feel free to reach out for assistance in any aspect that does not make sense or that may not be familiar to you.
+Questions are encouraged. You should feel free to reach out for assistance in any aspect that does not make sense or that may not be familiar to you.
 
 Candidates are judged on their attention to detail and ability to accomplish the task as efficiently as possible in a team environment, and not primarily on personal proficiency.
 
@@ -23,8 +23,8 @@ Candidates are judged on their attention to detail and ability to accomplish the
 To page will be completed as follows:
 #### Git
 * Please do not create a fork of this repository.
-* The repository can be either cloned or downloaded, and a new repository should be created on your own account.
-* Upon completion, you can send a link of your clone of this project.
+* Click the <i>"Use this template"</i> green button on the top right to duplicate the repository to your own github account.
+* Upon completion, you can send the link of your copy of this repository.
 
 
 #### JavaScript 
@@ -32,7 +32,8 @@ All code is to be developed using ES6 JavaScript, starting with the entry file:
 ```
  src/index.js
 ```
-* No external libraries or packages are allowed
+* No external libraries or packages are allowed.
+* The page should peform correctly on both Development and Production environments.
      ##### JSON Data
      * The URL for the json file, <b><i>src/static/data/cards-data.json</i></b>, will be accessed using either <i>import</i> or <i>require</i>.
      * The <i>users</i> array will be returned by calling the JavaScript Fetch API on the json file URL. 
