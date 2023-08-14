@@ -1,7 +1,7 @@
 # Frontend Assignment
 
 This assignment tests the following:
-* NPM/WebPack frontend production
+* npm/Webpack frontend production
 * HTML development
 * ES6 Javascript
 * SCSS/CSS development
@@ -54,7 +54,7 @@ SCSS is to be used for styles and any scss files should be imported in to:
 <br>
 
 ## About this Webpack Project
-This is a basic NPM/WebPack project that has the following features:
+This is a basic NPM/Webpack project that has the following features:
 
 1. Development and Production environments
 2. SASS is integrated in both environments
