@@ -23,7 +23,7 @@ Candidates are judged on their attention to detail and ability to accomplish the
 To page will be completed as follows:
 #### Git
 * Please do not create a fork of this repository.
-* Click the <i>"Use this template"</i> green button on the top right to duplicate the repository to your own github account.
+* Click the <i>"Use this template"</i> green button on the top right (you need to be logged in to see the button) and duplicate the repository on your own github account.
 * Upon completion, you can send the link of your copy of this repository.
 
 
