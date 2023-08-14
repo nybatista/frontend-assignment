@@ -9,18 +9,6 @@
 }
 
 
-@mixin addFontFaceTrueType($faceName, $fileName){
-  $f2: $STATIC_DIR+$fileName+'.ttf';
-  @font-face {
-    font-family: $faceName;
-    src:  url($f2)  format('truetype');
-  }
-}
-
-
-
-
-
 @include addFontFace('gloriola-thin',           'fonts/ms_gloriola_ii_display_thin-webfont');
 @include addFontFace('gloriola-bold',           'fonts/ms_gloriola_ii_std_bold-webfont');
 @include addFontFace('gloriola-bold-ital',      'fonts/ms_gloriola_ii_std_bold_it-webfont');
