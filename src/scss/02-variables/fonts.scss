@@ -1,0 +1,49 @@
+
+
+@mixin addFontFace($faceName, $fileName){
+  $f2: $STATIC_DIR+$fileName+'.woff';
+  @font-face {
+    font-family: $faceName;
+    src:  url($f2)  format('woff');
+  }
+}
+
+
+@mixin addFontFaceTrueType($faceName, $fileName){
+  $f2: $STATIC_DIR+$fileName+'.ttf';
+  @font-face {
+    font-family: $faceName;
+    src:  url($f2)  format('truetype');
+  }
+}
+
+
+
+
+
+@include addFontFace('gloriola-thin',           'fonts/ms_gloriola_ii_display_thin-webfont');
+@include addFontFace('gloriola-bold',           'fonts/ms_gloriola_ii_std_bold-webfont');
+@include addFontFace('gloriola-bold-ital',      'fonts/ms_gloriola_ii_std_bold_it-webfont');
+@include addFontFace('gloriola-light',          'fonts/ms_gloriola_ii_std_light-webfont');
+@include addFontFace('gloriola-light-ital',     'fonts/ms_gloriola_ii_std_light_it-webfont');
+@include addFontFace('gloriola-medium',         'fonts/ms_gloriola_ii_std_medium-webfont');
+@include addFontFace('gloriola-medium-ital',    'fonts/ms_gloriola_ii_std_mediumit-webfont');
+@include addFontFace('gloriola-regular',        'fonts/ms_gloriola_ii_std_reg-webfont');
+@include addFontFace('gloriola-regular-ital',   'fonts/ms_gloriola_ii_std_reg_it-webfont');
+@include addFontFace('gloriola-semibold',       'fonts/ms_gloriola_ii_std_semibd-webfont');
+@include addFontFace('gloriola-semibold-ital',  'fonts/ms_gloriola_ii_std_semibdit-webfont');
+
+
+@include addFontFace('karlabold',       'fonts/karla-bold-webfont');
+@include addFontFace('karlaregular',    'fonts/karla-regular-webfont');
+
+
+
+
+
+$gloriola-reg: 'gloriola-regular', sans-serif;
+$gloriola-med: 'gloriola-medium', sans-serif;
+$gloriola-bold: 'gloriola-semibold', sans-serif;
+$gloriola-thin: 'gloriola-thin', sans-serif;
+$karla-bold: "karlabold", sans-serif;
+$karla-reg: 'karlaregular', sans-serif;
