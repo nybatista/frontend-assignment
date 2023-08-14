@@ -37,7 +37,7 @@ All code is to be developed using ES6 JavaScript, starting with the entry file:
      ##### JSON Data
      * The URL for the json file, <b><i>src/static/data/cards-data.json</i></b>, will be accessed using either <i>import</i> or <i>require</i>.
      * The <i>users</i> array will be returned by calling the JavaScript Fetch API on the json file URL. 
-     * The Profile Cards are to be sorted by the <i>"team"</i> property and then by <i>"lastName"</i>.
+     * The Profile Cards are to be sorted by the <i>"teamName"</i> property and then by <i>"lastName"</i>.
      ##### Thumbnail Images
      * The thumbnails are located in the <i>src/static/imgs/thumbs</i> directory.
      * The thumbnail image src can be accessed by adding the user <i>thumbnail</i> property to the global, <b><i>window._getThumbnailURL</i></b> method.
