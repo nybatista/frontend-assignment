@@ -20,7 +20,7 @@ Candidates are judged on their attention to detail and ability to accomplish the
 #### The following page is to be developed using JavaScript and SCSS/CSS. The page contains a Navbar, a Hero box, and a container of Profile Cards.
 ![Model](src/static/imgs/frontend-assignment-screengrab.png)
 
-The page should be developed as follows:
+To page will be completed as follows:
 #### Git
 * Please do not create a fork of this repository.
 * The repository can be either cloned or downloaded, and a new repository should be created on your own account.
