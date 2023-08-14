@@ -1,7 +1,7 @@
 # Frontend Assignment
 
 This assignment tests the following:
-* npm/Webpack frontend production
+* NPM/Webpack frontend production
 * HTML development
 * ES6 Javascript
 * SCSS/CSS development
