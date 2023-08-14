@@ -20,7 +20,7 @@ Candidates are judged on their attention to detail and ability to accomplish the
 #### The following page is to be developed using JavaScript and SCSS/CSS. The page contains a Navbar, a Hero box, and a container of Profile Cards.
 ![Model](src/static/imgs/frontend-assignment-screengrab.png)
 
-The page will be built as follows:
+The page should be developed as follows:
 #### Git
 * Please do not create a fork of this repository.
 * The repository can be either cloned or downloaded, and a new repository should be created on your own account.
@@ -38,7 +38,7 @@ All code is to be developed using ES6 JavaScript, starting with the entry file:
      * The <i>users</i> array will be returned by calling the JavaScript Fetch API on the json file URL. 
      * The Profile Cards are to be sorted by the <i>"team"</i> property and then by <i>"lastName"</i>.
      ##### Thumbnail Images
-     * The thumbnails are located in the <i>src/static/imgs/thumbs</i> directory
+     * The thumbnails are located in the <i>src/static/imgs/thumbs</i> directory.
      * The thumbnail image src can be accessed by adding the user <i>thumbnail</i> property to the global, <b><i>window._getThumbnailURL</i></b> method.
 
 #### CSS
